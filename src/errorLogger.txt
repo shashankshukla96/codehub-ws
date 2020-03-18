@@ -1,0 +1,57 @@
+Error: This customer is not registered
+    at customerModel.login.then.data (/home/shashank/Desktop/brown_and_black/web_service/src/service/customerService.js:19:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Error: This customer is not registered
+    at customerModel.login.then.data (/home/shashank/Desktop/brown_and_black/web_service/src/service/customerService.js:19:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Error: This customer is not registered
+    at customerModel.login.then.data (/home/shashank/Desktop/brown_and_black/web_service/src/service/customerService.js:19:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Error: This customer is not registered
+    at customerModel.login.then.data (/home/shashank/Desktop/brown_and_black/web_service/src/service/customerService.js:19:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Error: This customer is not registered
+    at customerModel.login.then.data (/home/shashank/Desktop/brown_and_black/web_service/src/service/customerService.js:19:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Error: This customer is not registered
+    at customerModel.login.then.data (/home/shashank/Desktop/brown_and_black/web_service/src/service/customerService.js:19:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Error: This customer is not registered
+    at customerModel.login.then.data (/home/shashank/Desktop/brown_and_black/web_service/src/service/customerService.js:19:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Error: data and hash arguments required
+    at Object.compare (/home/shashank/Desktop/brown_and_black/web_service/node_modules/bcrypt/bcrypt.js:208:17)
+    at /home/shashank/Desktop/brown_and_black/web_service/node_modules/bcrypt/promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (/home/shashank/Desktop/brown_and_black/web_service/node_modules/bcrypt/promises.js:20:12)
+    at Object.compare (/home/shashank/Desktop/brown_and_black/web_service/node_modules/bcrypt/bcrypt.js:204:25)
+    at model.find.then.findData (/home/shashank/Desktop/brown_and_black/web_service/src/model/customerModel.js:28:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Error: Wrong Password
+    at customerModel.login.then.data (/home/shashank/Desktop/brown_and_black/web_service/src/service/customerService.js:21:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Error: Wrong Password
+    at customerModel.login.then.data (/home/shashank/Desktop/brown_and_black/web_service/src/service/customerService.js:21:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Error: Wrong Password
+    at customerModel.login.then.data (/home/shashank/Desktop/brown_and_black/web_service/src/service/customerService.js:21:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Error: This customer is not registered
+    at customerModel.login.then.data (/home/shashank/Desktop/brown_and_black/web_service/src/service/customerService.js:19:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Error: Wrong Password
+    at customerModel.login.then.data (/home/shashank/Desktop/brown_and_black/web_service/src/service/customerService.js:21:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Error: Wrong Password
+    at customerModel.login.then.data (/home/shashank/Desktop/brown_and_black/web_service/src/service/customerService.js:21:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Error: data and hash arguments required
+    at Object.compare (/home/shashank/Desktop/brown_and_black/web_service/node_modules/bcrypt/bcrypt.js:208:17)
+    at /home/shashank/Desktop/brown_and_black/web_service/node_modules/bcrypt/promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (/home/shashank/Desktop/brown_and_black/web_service/node_modules/bcrypt/promises.js:20:12)
+    at Object.compare (/home/shashank/Desktop/brown_and_black/web_service/node_modules/bcrypt/bcrypt.js:204:25)
+    at model.find.then.findData (/home/shashank/Desktop/brown_and_black/web_service/src/model/customerModel.js:31:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Error: Wrong Password
+    at customerModel.login.then.data (/home/shashank/Desktop/brown_and_black/web_service/src/service/customerService.js:21:10) 

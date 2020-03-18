@@ -1,0 +1,44 @@
+TypeError: Cannot read property 'then' of undefined
+    at Object.customer.signup.data [as signup] (/home/shashank/Desktop/Codehub/src/service/customerService.js:6:35)
+    at routing.post (/home/shashank/Desktop/Codehub/src/route/customerRoute.js:9:4)
+    at Layer.handle [as handle_request] (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/layer.js:95:5)
+    at /home/shashank/Desktop/Codehub/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/index.js:174:3) 
+TypeError: ((intermediate value) + 30).toISOString is not a function
+    at new Customer (/home/shashank/Desktop/Codehub/src/model/class/customer.js:10:39)
+    at Object.customer.signup.data [as signup] (/home/shashank/Desktop/Codehub/src/model/customerModel.js:25:19)
+    at Object.customer.signup.data [as signup] (/home/shashank/Desktop/Codehub/src/service/customerService.js:15:23)
+    at routing.post (/home/shashank/Desktop/Codehub/src/route/customerRoute.js:8:29)
+    at Layer.handle [as handle_request] (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/layer.js:95:5)
+    at /home/shashank/Desktop/Codehub/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/index.js:335:12) 
+ReferenceError: postData is not defined
+    at Object.customer.signup (/home/shashank/Desktop/Codehub/src/model/customerModel.js:17:38)
+    at Object.customer.signup (/home/shashank/Desktop/Codehub/src/service/customerService.js:15:16)
+    at routing.post (/home/shashank/Desktop/Codehub/src/route/customerRoute.js:8:16)
+    at Layer.handle [as handle_request] (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/layer.js:95:5)
+    at /home/shashank/Desktop/Codehub/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/shashank/Desktop/Codehub/node_modules/express/lib/router/index.js:275:10) 
+Error: Wrong Password
+    at customerModel.login.then.data (/home/shashank/Desktop/Codehub/src/service/customerService.js:21:10) 
+Error: This customer is not registered
+    at customerModel.login.then.data (/home/shashank/Desktop/Codehub/src/service/customerService.js:19:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+Error: This customer is not registered
+    at customerModel.login.then.data (/home/shashank/Desktop/Codehub/src/service/customerService.js:19:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
+ReferenceError: email is not defined
+    at model.findOne.then.findData (/home/shashank/Desktop/Codehub/src/model/customerModel.js:48:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7) 
